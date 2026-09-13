@@ -1,0 +1,29 @@
+PAPER: Implementing Graph-Theoretic Feature Selection by Quantum Approximate Optimization Algorithm
+
+AUTHORS:
+Yaochong Li
+Ri-Gui Zhou
+Ruiqing Xu
+Jia Luo
+Wenwen Hu
+Ping Fan
+
+DOI:
+10.1109/TNNLS.2022.3190042
+
+METHODS:
+1. MinCut
+2. Densest k-Subgraph
+3. Maximum Independent Set / Minimum Vertex Cover
+
+QUANTUM ALGORITHM:
+QAOA
+
+CURRENT STATUS:
+Environment: COMPLETE
+Toy QAOA: COMPLETE
+Real-dataset QAOA: COMPLETE
+Exact-solution validation: COMPLETE
+Leakage-free evaluation: COMPLETE
+Exact paper formulation: NEXT
+Cybersecurity extension: NOT STARTED
