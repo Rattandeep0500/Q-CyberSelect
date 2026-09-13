@@ -1,0 +1,49 @@
+PAPER REFERENCE
+
+Title:
+Implementing Graph-Theoretic Feature Selection by Quantum Approximate Optimization Algorithm
+
+Authors:
+Yaochong Li
+Ri-Gui Zhou
+Ruiqing Xu
+Jia Luo
+Wenwen Hu
+Ping Fan
+
+Journal:
+IEEE Transactions on Neural Networks and Learning Systems
+
+Volume:
+35
+
+Issue:
+2
+
+Pages:
+2364-2377
+
+DOI:
+10.1109/TNNLS.2022.3190042
+
+CORE METHOD:
+Feature selection
+    ->
+Feature graph
+    ->
+Graph-theoretic optimization
+    ->
+Binary quadratic problem
+    ->
+QAOA
+
+GRAPH METHODS:
+1. MinCut
+2. Densest k-Subgraph
+3. Maximum Independent Set / Minimum Vertex Cover
+
+PAPER CLAIM:
+The authors evaluate the methods on 20 public datasets and propose Tabu Search integration for larger problems with limited quantum resources.
+
+PROJECT EXTENSION:
+Apply the framework to cybersecurity feature selection for network intrusion detection.
