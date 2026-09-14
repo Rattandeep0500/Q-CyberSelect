@@ -1,0 +1,48 @@
+{
+  "features": [
+    "magnesium",
+    "total_phenols",
+    "flavanoids",
+    "proanthocyanins",
+    "color_intensity",
+    "hue"
+  ],
+  "edges": [
+    [
+      "total_phenols",
+      "flavanoids"
+    ],
+    [
+      "total_phenols",
+      "proanthocyanins"
+    ],
+    [
+      "flavanoids",
+      "proanthocyanins"
+    ],
+    [
+      "flavanoids",
+      "hue"
+    ],
+    [
+      "color_intensity",
+      "hue"
+    ]
+  ],
+  "qaoa_selected": [
+    "magnesium",
+    "total_phenols",
+    "proanthocyanins",
+    "color_intensity",
+    "hue"
+  ],
+  "qaoa_size": 5,
+  "exact_selected": [
+    "total_phenols",
+    "flavanoids",
+    "color_intensity"
+  ],
+  "exact_size": 3,
+  "qaoa_objective": 5.0,
+  "optimal_size_match": false
+}
