@@ -1,0 +1,7 @@
+*.py linguist-language=Python
+*.cpp linguist-language=C++
+*.rs linguist-language=Rust
+*.ts linguist-language=TypeScript
+rust/security_pipeline/target/* linguist-vendored=true
+frontend/node_modules/* linguist-vendored=true
+frontend/dist/* linguist-generated=true
