@@ -1,0 +1,13 @@
+{
+  "qaoa_selected": [
+    "alcalinity_of_ash"
+  ],
+  "qaoa_size": 1,
+  "qaoa_objective": 1.0,
+  "qaoa_time_seconds": 1.1019277999876067,
+  "exact_selected": [
+    "alcohol"
+  ],
+  "exact_size": 1,
+  "match": false
+}
