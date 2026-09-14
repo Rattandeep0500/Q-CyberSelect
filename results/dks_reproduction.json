@@ -1,0 +1,26 @@
+{
+  "features": [
+    "alcohol",
+    "malic_acid",
+    "ash",
+    "alcalinity_of_ash",
+    "magnesium",
+    "total_phenols"
+  ],
+  "k": 3,
+  "qaoa_selected": [
+    "alcohol",
+    "ash",
+    "alcalinity_of_ash"
+  ],
+  "qaoa_objective": 0.9651469198751405,
+  "qaoa_time_seconds": 0.6715150999953039,
+  "exact_selected": [
+    "alcohol",
+    "ash",
+    "alcalinity_of_ash"
+  ],
+  "exact_objective": 0.9651469198751403,
+  "exact_time_seconds": 2.9099988751113415e-05,
+  "approximation_ratio": 1.0000000000000002
+}
