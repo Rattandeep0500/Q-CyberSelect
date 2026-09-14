@@ -1,13 +1,48 @@
 {
+  "features": [
+    "magnesium",
+    "total_phenols",
+    "flavanoids",
+    "proanthocyanins",
+    "color_intensity",
+    "hue"
+  ],
+  "edges": [
+    [
+      "total_phenols",
+      "flavanoids"
+    ],
+    [
+      "total_phenols",
+      "proanthocyanins"
+    ],
+    [
+      "flavanoids",
+      "proanthocyanins"
+    ],
+    [
+      "flavanoids",
+      "hue"
+    ],
+    [
+      "color_intensity",
+      "hue"
+    ]
+  ],
   "qaoa_selected": [
-    "alcalinity_of_ash"
+    "magnesium",
+    "proanthocyanins",
+    "hue"
   ],
-  "qaoa_size": 1,
-  "qaoa_objective": 1.0,
-  "qaoa_time_seconds": 1.1019277999876067,
+  "qaoa_size": 3,
   "exact_selected": [
-    "alcohol"
+    "magnesium",
+    "total_phenols",
+    "color_intensity"
   ],
-  "exact_size": 1,
-  "match": false
+  "exact_size": 3,
+  "qaoa_objective": 3.0,
+  "qaoa_time_seconds": 0.8556496000092011,
+  "exact_time_seconds": 3.440000000409782e-05,
+  "optimal_size_match": true
 }
