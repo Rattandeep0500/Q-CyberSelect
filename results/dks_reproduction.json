@@ -14,13 +14,13 @@
     "alcalinity_of_ash"
   ],
   "qaoa_objective": 0.9651469198751405,
-  "qaoa_time_seconds": 0.6715150999953039,
+  "qaoa_time_seconds": 1.0657753999985289,
   "exact_selected": [
     "alcohol",
     "ash",
     "alcalinity_of_ash"
   ],
   "exact_objective": 0.9651469198751403,
-  "exact_time_seconds": 2.9099988751113415e-05,
+  "exact_time_seconds": 2.710000262595713e-05,
   "approximation_ratio": 1.0000000000000002
 }
