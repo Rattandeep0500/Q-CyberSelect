@@ -1,0 +1,40 @@
+[
+  {
+    "method": "Target-aware-QAOA",
+    "model": "LogisticRegression",
+    "features": 4,
+    "selected": [
+      "sttl",
+      "ct_state_ttl",
+      "dpkts",
+      "rate"
+    ],
+    "accuracy": 0.7194408006607395,
+    "balanced_accuracy": 0.7030471011468541,
+    "precision": 0.6978200907554053,
+    "recall": 0.8650401482396541,
+    "f1": 0.7724841667733706,
+    "roc_auc": 0.8183690603380226,
+    "pr_auc": 0.7693150529873374,
+    "mcc": 0.4339636812443583
+  },
+  {
+    "method": "Target-aware-QAOA",
+    "model": "RandomForest",
+    "features": 4,
+    "selected": [
+      "sttl",
+      "ct_state_ttl",
+      "dpkts",
+      "rate"
+    ],
+    "accuracy": 0.794891415245591,
+    "balanced_accuracy": 0.7858703797329492,
+    "precision": 0.7794918151983807,
+    "recall": 0.8750110297361687,
+    "f1": 0.8244941227824026,
+    "roc_auc": 0.8850502046761313,
+    "pr_auc": 0.8727948986597438,
+    "mcc": 0.5853602569848192
+  }
+]

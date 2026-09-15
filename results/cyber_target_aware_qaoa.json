@@ -1,0 +1,22 @@
+{
+  "candidates": [
+    "sttl",
+    "dttl",
+    "ct_state_ttl",
+    "dload",
+    "dinpkt",
+    "dpkts",
+    "state",
+    "rate"
+  ],
+  "k": 4,
+  "lambda_redundancy": 0.5,
+  "selected": [
+    "sttl",
+    "ct_state_ttl",
+    "dpkts",
+    "rate"
+  ],
+  "objective": -0.0918022188408858,
+  "time_seconds": 5.694173700001556
+}
