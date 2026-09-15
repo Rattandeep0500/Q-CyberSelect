@@ -1,0 +1,31 @@
+{
+  "candidate_count": 8,
+  "k": 4,
+  "candidates": [
+    "sttl",
+    "dttl",
+    "ct_state_ttl",
+    "dload",
+    "dinpkt",
+    "dpkts",
+    "state",
+    "rate"
+  ],
+  "qaoa_selected": [
+    "dttl",
+    "ct_state_ttl",
+    "dpkts",
+    "state"
+  ],
+  "qaoa_objective": 4.457903608156329,
+  "qaoa_time_seconds": 3.2967333999986295,
+  "exact_selected": [
+    "dttl",
+    "ct_state_ttl",
+    "dpkts",
+    "state"
+  ],
+  "exact_objective": 4.457903608156329,
+  "approximation_ratio": 1.0,
+  "exact_match": true
+}
