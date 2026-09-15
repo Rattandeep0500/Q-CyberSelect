@@ -1,0 +1,74 @@
+[
+  {
+    "candidate_count": 6,
+    "k": 2,
+    "qaoa_selected": [
+      "dttl",
+      "ct_state_ttl"
+    ],
+    "qaoa_objective": 0.953379941822738,
+    "exact_selected": [
+      "dttl",
+      "ct_state_ttl"
+    ],
+    "exact_objective": 0.953379941822738,
+    "approximation_ratio": 1.0,
+    "exact_match": true,
+    "qaoa_time_seconds": 0.9831699000205845
+  },
+  {
+    "candidate_count": 6,
+    "k": 3,
+    "qaoa_selected": [
+      "dttl",
+      "ct_state_ttl",
+      "dpkts"
+    ],
+    "qaoa_objective": 2.272396751609261,
+    "exact_selected": [
+      "dttl",
+      "ct_state_ttl",
+      "dpkts"
+    ],
+    "exact_objective": 2.272396751609261,
+    "approximation_ratio": 1.0,
+    "exact_match": true,
+    "qaoa_time_seconds": 0.8305867000017315
+  },
+  {
+    "candidate_count": 8,
+    "k": 2,
+    "qaoa_selected": [
+      "dttl",
+      "ct_state_ttl"
+    ],
+    "qaoa_objective": 0.953379941822738,
+    "exact_selected": [
+      "dttl",
+      "ct_state_ttl"
+    ],
+    "exact_objective": 0.953379941822738,
+    "approximation_ratio": 1.0,
+    "exact_match": true,
+    "qaoa_time_seconds": 6.623957200004952
+  },
+  {
+    "candidate_count": 8,
+    "k": 3,
+    "qaoa_selected": [
+      "dttl",
+      "ct_state_ttl",
+      "state"
+    ],
+    "qaoa_objective": 2.3977763576887807,
+    "exact_selected": [
+      "dttl",
+      "ct_state_ttl",
+      "state"
+    ],
+    "exact_objective": 2.3977763576887807,
+    "approximation_ratio": 1.0,
+    "exact_match": true,
+    "qaoa_time_seconds": 8.14309980001417
+  }
+]
