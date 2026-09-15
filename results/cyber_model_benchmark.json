@@ -1,0 +1,80 @@
+[
+  {
+    "method": "QAOA-DkS",
+    "model": "LogisticRegression",
+    "features": 4,
+    "accuracy": 0.7744012048778118,
+    "balanced_accuracy": 0.7497774223089233,
+    "precision": 0.7114254108723135,
+    "recall": 0.993095385158387,
+    "f1": 0.8289875888483778,
+    "roc_auc": 0.8719193085368966,
+    "pr_auc": 0.8427104477525782,
+    "mcc": 0.5892274291156319
+  },
+  {
+    "method": "QAOA-DkS",
+    "model": "RandomForest",
+    "features": 4,
+    "accuracy": 0.7950128747024243,
+    "balanced_accuracy": 0.7728017545031134,
+    "precision": 0.7313076135199726,
+    "recall": 0.9922791846819025,
+    "f1": 0.8420362969272096,
+    "roc_auc": 0.8847463276940578,
+    "pr_auc": 0.8612825683750145,
+    "mcc": 0.6243663287582909
+  },
+  {
+    "method": "MI-top-k",
+    "model": "LogisticRegression",
+    "features": 4,
+    "accuracy": 0.756862459311082,
+    "balanced_accuracy": 0.7315728594561207,
+    "precision": 0.698790639233548,
+    "recall": 0.9814700432365658,
+    "f1": 0.8163519935414029,
+    "roc_auc": 0.6154198501863728,
+    "pr_auc": 0.6233750347325862,
+    "mcc": 0.5502682290789236
+  },
+  {
+    "method": "MI-top-k",
+    "model": "RandomForest",
+    "features": 4,
+    "accuracy": 0.8156123985813536,
+    "balanced_accuracy": 0.8025609962296189,
+    "precision": 0.777607955068594,
+    "recall": 0.9315273978646431,
+    "f1": 0.8476369220269578,
+    "roc_auc": 0.847592903467749,
+    "pr_auc": 0.821486046377006,
+    "mcc": 0.6352402726128665
+  },
+  {
+    "method": "All-features",
+    "model": "LogisticRegression",
+    "features": 42,
+    "accuracy": 0.8091871933148715,
+    "balanced_accuracy": 0.7908347459344989,
+    "precision": 0.753092959671907,
+    "recall": 0.9721830053825112,
+    "f1": 0.8487270346261988,
+    "roc_auc": 0.9555911324498416,
+    "pr_auc": 0.9661571729589634,
+    "mcc": 0.6381598726686175
+  },
+  {
+    "method": "All-features",
+    "model": "RandomForest",
+    "features": 42,
+    "accuracy": 0.8923869212456882,
+    "balanced_accuracy": 0.8830198117909669,
+    "precision": 0.8508407403132094,
+    "recall": 0.9755801641224742,
+    "f1": 0.908950775870928,
+    "roc_auc": 0.9809486735698904,
+    "pr_auc": 0.9847264995652569,
+    "mcc": 0.7898357533843793
+  }
+]
