@@ -1,0 +1,10 @@
+{
+  "selection_rule": "highest mean 3-fold training CV F1",
+  "selected_lambda": 0.0,
+  "selected_features": [
+    "sttl",
+    "dttl",
+    "ct_state_ttl",
+    "state"
+  ]
+}
