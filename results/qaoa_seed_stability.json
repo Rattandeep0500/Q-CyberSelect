@@ -1,0 +1,52 @@
+[
+  {
+    "seed": 1,
+    "selected": [
+      "sttl",
+      "dttl",
+      "ct_state_ttl",
+      "dload"
+    ],
+    "objective": 1.542863132000612
+  },
+  {
+    "seed": 7,
+    "selected": [
+      "sttl",
+      "dttl",
+      "ct_state_ttl",
+      "dload"
+    ],
+    "objective": 1.542863132000612
+  },
+  {
+    "seed": 21,
+    "selected": [
+      "sttl",
+      "dttl",
+      "ct_state_ttl",
+      "dload"
+    ],
+    "objective": 1.542863132000612
+  },
+  {
+    "seed": 42,
+    "selected": [
+      "sttl",
+      "dttl",
+      "ct_state_ttl",
+      "state"
+    ],
+    "objective": 1.523966029057555
+  },
+  {
+    "seed": 100,
+    "selected": [
+      "sttl",
+      "dttl",
+      "ct_state_ttl",
+      "dload"
+    ],
+    "objective": 1.542863132000612
+  }
+]
