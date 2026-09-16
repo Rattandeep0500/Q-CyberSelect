@@ -1,0 +1,212 @@
+[
+  {
+    "fold": 1,
+    "method": "MI-4",
+    "features": 4,
+    "selected": [
+      "dttl",
+      "dbytes",
+      "sttl",
+      "sbytes"
+    ],
+    "f1": 0.9508280384801857,
+    "balanced_accuracy": 0.9325658548491229,
+    "roc_auc": 0.9834167904187662
+  },
+  {
+    "fold": 1,
+    "method": "ANOVA-4",
+    "features": 4,
+    "selected": [
+      "ct_dst_sport_ltm",
+      "dload",
+      "ct_state_ttl",
+      "sttl"
+    ],
+    "f1": 0.9281323996171091,
+    "balanced_accuracy": 0.888887713920644,
+    "roc_auc": 0.9520221876828693
+  },
+  {
+    "fold": 1,
+    "method": "L1-4",
+    "features": 4,
+    "selected": [
+      "dload",
+      "swin",
+      "proto",
+      "dttl"
+    ],
+    "f1": 0.9243826191761559,
+    "balanced_accuracy": 0.8808374933942544,
+    "roc_auc": 0.9322932999230272
+  },
+  {
+    "fold": 1,
+    "method": "RF-4",
+    "features": 4,
+    "selected": [
+      "rate",
+      "sload",
+      "ct_state_ttl",
+      "sttl"
+    ],
+    "f1": 0.9442062257301509,
+    "balanced_accuracy": 0.9167650798521886,
+    "roc_auc": 0.9803462529744202
+  },
+  {
+    "fold": 1,
+    "method": "QAOA-4",
+    "features": 4,
+    "selected": [
+      "sttl",
+      "ct_state_ttl",
+      "dload",
+      "rate"
+    ],
+    "f1": 0.9391585436139023,
+    "balanced_accuracy": 0.9026421534489405,
+    "roc_auc": 0.9605057162979447
+  },
+  {
+    "fold": 2,
+    "method": "MI-4",
+    "features": 4,
+    "selected": [
+      "dttl",
+      "dbytes",
+      "sttl",
+      "sbytes"
+    ],
+    "f1": 0.9507115185455104,
+    "balanced_accuracy": 0.9337190063913694,
+    "roc_auc": 0.9846430902992656
+  },
+  {
+    "fold": 2,
+    "method": "ANOVA-4",
+    "features": 4,
+    "selected": [
+      "ct_dst_sport_ltm",
+      "dload",
+      "ct_state_ttl",
+      "sttl"
+    ],
+    "f1": 0.9283879740142016,
+    "balanced_accuracy": 0.8890144455242033,
+    "roc_auc": 0.9523689379819577
+  },
+  {
+    "fold": 2,
+    "method": "L1-4",
+    "features": 4,
+    "selected": [
+      "dload",
+      "swin",
+      "proto",
+      "dttl"
+    ],
+    "f1": 0.9249049548927841,
+    "balanced_accuracy": 0.881244039813661,
+    "roc_auc": 0.933163067304632
+  },
+  {
+    "fold": 2,
+    "method": "RF-4",
+    "features": 4,
+    "selected": [
+      "sload",
+      "rate",
+      "ct_state_ttl",
+      "sttl"
+    ],
+    "f1": 0.94471815861947,
+    "balanced_accuracy": 0.9167500840253795,
+    "roc_auc": 0.9803210312205424
+  },
+  {
+    "fold": 2,
+    "method": "QAOA-4",
+    "features": 4,
+    "selected": [
+      "sttl",
+      "ct_state_ttl",
+      "dload",
+      "rate"
+    ],
+    "f1": 0.939425025646158,
+    "balanced_accuracy": 0.9020646676665949,
+    "roc_auc": 0.9610390414543071
+  },
+  {
+    "fold": 3,
+    "method": "MI-4",
+    "features": 4,
+    "selected": [
+      "dttl",
+      "dbytes",
+      "sttl",
+      "sbytes"
+    ],
+    "f1": 0.9513157390738116,
+    "balanced_accuracy": 0.9337909475249163,
+    "roc_auc": 0.984691842099935
+  },
+  {
+    "fold": 3,
+    "method": "ANOVA-4",
+    "features": 4,
+    "selected": [
+      "ct_dst_sport_ltm",
+      "dload",
+      "ct_state_ttl",
+      "sttl"
+    ],
+    "f1": 0.9282762096774193,
+    "balanced_accuracy": 0.8894302926167827,
+    "roc_auc": 0.952908914628603
+  },
+  {
+    "fold": 3,
+    "method": "L1-4",
+    "features": 4,
+    "selected": [
+      "dload",
+      "swin",
+      "proto",
+      "dttl"
+    ],
+    "f1": 0.9246466042595967,
+    "balanced_accuracy": 0.8818290722440387,
+    "roc_auc": 0.933008239531773
+  },
+  {
+    "fold": 3,
+    "method": "RF-4",
+    "features": 4,
+    "selected": [
+      "rate",
+      "sload",
+      "ct_state_ttl",
+      "sttl"
+    ],
+    "f1": 0.9459548150952922,
+    "balanced_accuracy": 0.9181000703753942,
+    "roc_auc": 0.9808965066272936
+  },
+  {
+    "fold": 3,
+    "method": "QAOA-4",
+    "features": 4,
+    "selected": [
+      "sttl",
+      "ct_state_ttl",
+      "dload",
+      "rate"
+    ],
+    "f1": 0.9408084936696242,
+    "balanced_accuracy": 0.9016539977786288,
+    "roc_auc": 0.9597838614286356
+  }
+]
