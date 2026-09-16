@@ -1,0 +1,57 @@
+[
+  {
+    "lambda": 0.0,
+    "selected": [
+      "sttl",
+      "dttl",
+      "ct_state_ttl",
+      "state"
+    ],
+    "objective": 1.523966029057555,
+    "time_seconds": 4.798078400000122
+  },
+  {
+    "lambda": 0.25,
+    "selected": [
+      "sttl",
+      "dttl",
+      "ct_state_ttl",
+      "rate"
+    ],
+    "objective": 0.6483243049657851,
+    "time_seconds": 4.992166299999553
+  },
+  {
+    "lambda": 0.5,
+    "selected": [
+      "sttl",
+      "ct_state_ttl",
+      "dpkts",
+      "rate"
+    ],
+    "objective": -0.0918022188408858,
+    "time_seconds": 5.440494299999955
+  },
+  {
+    "lambda": 0.75,
+    "selected": [
+      "sttl",
+      "dinpkt",
+      "dpkts",
+      "rate"
+    ],
+    "objective": -0.7677435767796528,
+    "time_seconds": 5.978187799999432
+  },
+  {
+    "lambda": 1.0,
+    "selected": [
+      "sttl",
+      "dinpkt",
+      "dpkts",
+      "rate"
+    ],
+    "objective": -1.4129306463338054,
+    "time_seconds": 5.914146299999629
+  }
+]

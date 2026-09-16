@@ -1,0 +1,6 @@
+lambda,selected,objective,time_seconds
+0.0,"['sttl', 'dttl', 'ct_state_ttl', 'state']",1.523966029057555,4.798078400000122
+0.25,"['sttl', 'dttl', 'ct_state_ttl', 'rate']",0.6483243049657851,4.992166299999553
+0.5,"['sttl', 'ct_state_ttl', 'dpkts', 'rate']",-0.0918022188408858,5.440494299999955
+0.75,"['sttl', 'dinpkt', 'dpkts', 'rate']",-0.7677435767796528,5.978187799999432
+1.0,"['sttl', 'dinpkt', 'dpkts', 'rate']",-1.4129306463338054,5.914146299999629
