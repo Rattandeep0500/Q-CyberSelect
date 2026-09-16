@@ -1,0 +1,10 @@
+{
+  "runs": 5,
+  "features_per_run": 4,
+  "mean_objective": 1.5390837114120006,
+  "min_objective": 1.523966029057555,
+  "max_objective": 1.542863132000612,
+  "mean_pairwise_jaccard": 0.8400000000000001,
+  "min_pairwise_jaccard": 0.6,
+  "max_pairwise_jaccard": 1.0
+}

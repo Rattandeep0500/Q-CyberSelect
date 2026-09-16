@@ -1,0 +1,6 @@
+feature,selected_count,selection_frequency
+ct_state_ttl,5,1.0
+dttl,5,1.0
+sttl,5,1.0
+dload,4,0.8
+state,1,0.2
