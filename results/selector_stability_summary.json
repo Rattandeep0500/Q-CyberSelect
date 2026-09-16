@@ -1,0 +1,52 @@
+[
+  {
+    "method": "MI-4",
+    "fully_stable_features": [
+      "dttl",
+      "dbytes",
+      "sttl",
+      "sbytes"
+    ],
+    "stable_feature_count": 4
+  },
+  {
+    "method": "ANOVA-4",
+    "fully_stable_features": [
+      "ct_dst_sport_ltm",
+      "dload",
+      "ct_state_ttl",
+      "sttl"
+    ],
+    "stable_feature_count": 4
+  },
+  {
+    "method": "L1-4",
+    "fully_stable_features": [
+      "dload",
+      "swin",
+      "proto",
+      "dttl"
+    ],
+    "stable_feature_count": 4
+  },
+  {
+    "method": "RF-4",
+    "fully_stable_features": [
+      "rate",
+      "sload",
+      "ct_state_ttl",
+      "sttl"
+    ],
+    "stable_feature_count": 4
+  },
+  {
+    "method": "QAOA-4",
+    "fully_stable_features": [
+      "sttl",
+      "ct_state_ttl",
+      "dload",
+      "rate"
+    ],
+    "stable_feature_count": 4
+  }
+]
