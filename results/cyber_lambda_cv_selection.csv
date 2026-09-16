@@ -1,0 +1,6 @@
+lambda,mean_cv_f1,std_cv_f1,fold_f1,selected_per_fold
+0.0,0.8975072154585844,0.022283547245746754,"[0.9290158940868308, 0.8822398002725872, 0.8812659520163348]","[['sttl', 'ct_state_ttl', 'dload', 'state'], ['sttl', 'ct_state_ttl', 'dload', 'rate'], ['sttl', 'ct_state_ttl', 'dload', 'rate']]"
+0.25,0.8911907685610733,0.003077723874848682,"[0.8933336621698276, 0.8934002639401077, 0.8868383795732844]","[['sttl', 'ct_state_ttl', 'dload', 'dpkts'], ['sttl', 'ct_state_ttl', 'dload', 'dpkts'], ['sttl', 'ct_state_ttl', 'dload', 'dpkts']]"
+0.5,0.8877495907620775,0.004290412301201862,"[0.8830101287728407, 0.8934002639401077, 0.8868383795732844]","[['sttl', 'ct_state_ttl', 'rate', 'dpkts'], ['sttl', 'ct_state_ttl', 'dload', 'dpkts'], ['sttl', 'ct_state_ttl', 'dload', 'dpkts']]"
+0.75,0.8842798065066783,0.0018092013766482424,"[0.8830101287728407, 0.8829909111739097, 0.8868383795732844]","[['sttl', 'ct_state_ttl', 'rate', 'dpkts'], ['sttl', 'ct_state_ttl', 'rate', 'dpkts'], ['sttl', 'ct_state_ttl', 'dload', 'dpkts']]"
+1.0,0.8820401225664846,0.001358229697440386,"[0.8830101287728407, 0.8829909111739097, 0.8801193277527035]","[['sttl', 'ct_state_ttl', 'rate', 'dpkts'], ['sttl', 'ct_state_ttl', 'rate', 'dpkts'], ['sttl', 'rate', 'dpkts', 'state']]"

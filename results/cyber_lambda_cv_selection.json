@@ -1,0 +1,152 @@
+[
+  {
+    "lambda": 0.0,
+    "mean_cv_f1": 0.8975072154585844,
+    "std_cv_f1": 0.022283547245746754,
+    "fold_f1": [
+      0.9290158940868308,
+      0.8822398002725872,
+      0.8812659520163348
+    ],
+    "selected_per_fold": [
+      [
+        "sttl",
+        "ct_state_ttl",
+        "dload",
+        "state"
+      ],
+      [
+        "sttl",
+        "ct_state_ttl",
+        "dload",
+        "rate"
+      ],
+      [
+        "sttl",
+        "ct_state_ttl",
+        "dload",
+        "rate"
+      ]
+    ]
+  },
+  {
+    "lambda": 0.25,
+    "mean_cv_f1": 0.8911907685610733,
+    "std_cv_f1": 0.003077723874848682,
+    "fold_f1": [
+      0.8933336621698276,
+      0.8934002639401077,
+      0.8868383795732844
+    ],
+    "selected_per_fold": [
+      [
+        "sttl",
+        "ct_state_ttl",
+        "dload",
+        "dpkts"
+      ],
+      [
+        "sttl",
+        "ct_state_ttl",
+        "dload",
+        "dpkts"
+      ],
+      [
+        "sttl",
+        "ct_state_ttl",
+        "dload",
+        "dpkts"
+      ]
+    ]
+  },
+  {
+    "lambda": 0.5,
+    "mean_cv_f1": 0.8877495907620775,
+    "std_cv_f1": 0.004290412301201862,
+    "fold_f1": [
+      0.8830101287728407,
+      0.8934002639401077,
+      0.8868383795732844
+    ],
+    "selected_per_fold": [
+      [
+        "sttl",
+        "ct_state_ttl",
+        "rate",
+        "dpkts"
+      ],
+      [
+        "sttl",
+        "ct_state_ttl",
+        "dload",
+        "dpkts"
+      ],
+      [
+        "sttl",
+        "ct_state_ttl",
+        "dload",
+        "dpkts"
+      ]
+    ]
+  },
+  {
+    "lambda": 0.75,
+    "mean_cv_f1": 0.8842798065066783,
+    "std_cv_f1": 0.0018092013766482424,
+    "fold_f1": [
+      0.8830101287728407,
+      0.8829909111739097,
+      0.8868383795732844
+    ],
+    "selected_per_fold": [
+      [
+        "sttl",
+        "ct_state_ttl",
+        "rate",
+        "dpkts"
+      ],
+      [
+        "sttl",
+        "ct_state_ttl",
+        "rate",
+        "dpkts"
+      ],
+      [
+        "sttl",
+        "ct_state_ttl",
+        "dload",
+        "dpkts"
+      ]
+    ]
+  },
+  {
+    "lambda": 1.0,
+    "mean_cv_f1": 0.8820401225664846,
+    "std_cv_f1": 0.001358229697440386,
+    "fold_f1": [
+      0.8830101287728407,
+      0.8829909111739097,
+      0.8801193277527035
+    ],
+    "selected_per_fold": [
+      [
+        "sttl",
+        "ct_state_ttl",
+        "rate",
+        "dpkts"
+      ],
+      [
+        "sttl",
+        "ct_state_ttl",
+        "rate",
+        "dpkts"
+      ],
+      [
+        "sttl",
+        "rate",
+        "dpkts",
+        "state"
+      ]
+    ]
+  }
+]
