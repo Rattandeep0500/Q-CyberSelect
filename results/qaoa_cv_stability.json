@@ -1,0 +1,32 @@
+[
+  {
+    "fold": 1,
+    "selected_features": [
+      "sttl",
+      "ct_state_ttl",
+      "dload",
+      "rate"
+    ],
+    "f1": 0.9391585436139023
+  },
+  {
+    "fold": 2,
+    "selected_features": [
+      "sttl",
+      "ct_state_ttl",
+      "dload",
+      "rate"
+    ],
+    "f1": 0.939425025646158
+  },
+  {
+    "fold": 3,
+    "selected_features": [
+      "sttl",
+      "ct_state_ttl",
+      "dload",
+      "rate"
+    ],
+    "f1": 0.9408084936696242
+  }
+]
