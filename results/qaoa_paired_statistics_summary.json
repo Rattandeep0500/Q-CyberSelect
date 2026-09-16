@@ -1,0 +1,58 @@
+{
+  "n_folds": 3,
+  "comparisons": [
+    {
+      "comparison": "QAOA-4 vs MI-4",
+      "qaoa_mean_f1": 0.9397973543098948,
+      "baseline_mean_f1": 0.9509517653665025,
+      "mean_f1_difference": -0.011154411056607675,
+      "std_difference": 0.0005922754113776714,
+      "mean_absolute_difference": 0.011154411056607675,
+      "cohens_d_paired": -18.833148974835517,
+      "paired_t_statistic": -32.619970890928826,
+      "paired_t_pvalue": 0.0009384716705190991,
+      "wilcoxon_statistic": 0.0,
+      "wilcoxon_pvalue": 0.25
+    },
+    {
+      "comparison": "QAOA-4 vs ANOVA-4",
+      "qaoa_mean_f1": 0.9397973543098948,
+      "baseline_mean_f1": 0.9282655277695767,
+      "mean_f1_difference": 0.011531826540318183,
+      "std_difference": 0.0008664387334965201,
+      "mean_absolute_difference": 0.011531826540318183,
+      "cohens_d_paired": 13.309454084285232,
+      "paired_t_statistic": 23.05265069498713,
+      "paired_t_pvalue": 0.0018764393420963685,
+      "wilcoxon_statistic": 0.0,
+      "wilcoxon_pvalue": 0.25
+    },
+    {
+      "comparison": "QAOA-4 vs L1-4",
+      "qaoa_mean_f1": 0.9397973543098948,
+      "baseline_mean_f1": 0.9246447261095123,
+      "mean_f1_difference": 0.015152628200382582,
+      "std_difference": 0.0008833580355223981,
+      "mean_absolute_difference": 0.015152628200382582,
+      "cohens_d_paired": 17.153439025911684,
+      "paired_t_statistic": 29.710627917413827,
+      "paired_t_pvalue": 0.0011309388205452708,
+      "wilcoxon_statistic": 0.0,
+      "wilcoxon_pvalue": 0.25
+    },
+    {
+      "comparison": "QAOA-4 vs RF-4",
+      "qaoa_mean_f1": 0.9397973543098948,
+      "baseline_mean_f1": 0.9449597331483043,
+      "mean_f1_difference": -0.005162378838409458,
+      "std_difference": 0.00012351077356353844,
+      "mean_absolute_difference": 0.005162378838409458,
+      "cohens_d_paired": -41.79699219318501,
+      "paired_t_statistic": -72.39451408215615,
+      "paired_t_pvalue": 0.00019074993947484884,
+      "wilcoxon_statistic": 0.0,
+      "wilcoxon_pvalue": 0.25
+    }
+  ],
+  "note": "Exploratory paired analysis based on three shared CV folds."
+}
